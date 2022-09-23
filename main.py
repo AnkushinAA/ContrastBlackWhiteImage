@@ -29,9 +29,11 @@ original2 = Image.open(imageFileName2)
 original3 = Image.open(imageFileName3)
 newImage1 = contrastBlackWhiteImage(original1)
 newImage1.show()
+newImage1.save('lunar_images/lunar01_contrast.jpg')
 newImage2 = contrastBlackWhiteImage(original2)
 newImage2.show()
+newImage2.save('lunar_images/lunar02_contrast.jpg')
 newImage3 = contrastBlackWhiteImage(original3)
 newImage3.show()
-
+newImage3.save('lunar_images/lunar03_contrast.jpg')
 
